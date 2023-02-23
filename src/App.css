@@ -1,0 +1,63 @@
+#root {
+  font-family: sans-serif;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: left;
+  border-left: solid 5px lightgray;
+}
+
+.heading {
+  color: tomato;
+  padding: 0px;
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.cont {
+  display: flex;
+  justify-content: flex-end;
+  color: tomato;
+  font-weight: bold;
+}
+
+.applyGray {
+  color: lightgray;
+}
+
+.applyTomato {
+  color: tomato;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.applyPad {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.articleTitle {
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+}
+
+.subHeading {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
